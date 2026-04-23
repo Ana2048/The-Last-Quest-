@@ -1,0 +1,73 @@
+# Blender 5.0.1 MTL File: 'Untitled.blend'
+# www.blender.org
+
+newmtl Plane.005_0
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1000.000000
+d 1.000000
+illum 2
+
+newmtl cdp_body
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1000.000000
+d 1.000000
+illum 2
+map_Ns cdp_body_specularGlossiness.png
+map_Bump -bm 1.000000 cdp_body_normal.png
+
+newmtl cdp_metal
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1000.000000
+d 1.000000
+illum 2
+map_Ns cdp_metal_specularGlossiness.png
+
+newmtl cdp_plastic
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1000.000000
+d 1.000000
+illum 2
+map_Kd cdp_plastic_diffuse.png
+map_Ns cdp_plastic_specularGlossiness.png
+
+newmtl gloss
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1000.000000
+d 1.000000
+illum 2
+map_Ns gloss_specularGlossiness.png
+
+newmtl thruster
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 1.000000 0.458642 0.000000
+Ni 1000.000000
+d 0.990000
+illum 9
+
+newmtl white_light
+Ns 159.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1000.000000
+d 1.000000
+illum 2
+map_Ke white_light_emissive.png

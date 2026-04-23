@@ -1,0 +1,12 @@
+# Blender 5.0.1 MTL File: 'forest.blend'
+# www.blender.org
+
+newmtl PortalDisc
+Ns 490.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800007 0.651536 0.038985
+Ks 0.500000 0.500000 0.500000
+Ke 2.000000 1.617580 0.018100
+Ni 1.500000
+d 1.000000
+illum 2

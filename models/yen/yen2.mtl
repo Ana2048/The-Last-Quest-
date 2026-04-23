@@ -1,0 +1,38 @@
+# Fixed MTL for simple OBJ loaders (use map_Kd for color)
+# Files expected in the same folder as yen2.obj:
+# - T_F_MED_FishBowl_Body_D.bmp_baseColor.png
+# - T_F_MED_FishBowl_FaceAcc_D.bmp_baseColor.png
+# - T_F_MED_FishBowl_Head_D.bmp_baseColor.png
+
+newmtl T_F_MED_FishBowl_Body_D.bmp.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd T_F_MED_FishBowl_Body_D.bmp_baseColor.png
+
+newmtl T_F_MED_FishBowl_FaceAcc_D.bmp.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.050000 0.050000 0.050000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd T_F_MED_FishBowl_FaceAcc_D.bmp_baseColor.png
+
+newmtl T_F_MED_FishBowl_Head_D.bmp.001
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.050000 0.050000 0.050000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd T_F_MED_FishBowl_Head_D.bmp_baseColor.png

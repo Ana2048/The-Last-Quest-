@@ -1,0 +1,53 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# Build folders
+x64/
+x86/
+Debug/
+Release/
+build/
+Build/
+bin/
+obj/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Temporary
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Binary/intermediate files
+*.o
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.exe
+*.exp
+*.ipch
+
+# Blender source files
+*.blend
+*.blend1
+
+# Very large models to exclude from GitHub
+models/nightcity/nightcity.obj
+models/nightcity2/nightcity2.obj
